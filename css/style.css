@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+#titulo-primero{
+    display: flex;
+    flex: row;
+    background-color:#c4c4c4;
+    width: 100%;
+    height: 12vh;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: baseline;
+    transform: skew(20deg);
+}
+#titulo-primero h1{
+    color:#51524c;
+    font-weight: 600;
+}
+#titulo-primero nav{
+    padding: 30px;
+    width: 40%;
+}
+#titulo-primero nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+}
+#titulo-primero nav ul li a{
+    color:#535353;
+    text-decoration: none;
+    font-weight:600px;
+    font-size: 1rem;
+}
+#section-descripcion{
+    text-align: center;
+    line-height: 1.8em;
+}
+#section-descripcion h3{
+    color:#51524c;
+    font-size: 2rem;
+    font-weight: 100px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 3rem;
+    text-shadow: 20px 15px 10px rgb(99, 90, 90);
+}
+#section-descripcion p{
+    text-align: justify;
+    margin: 20px;
+    color:#777777;
+}
+#titulo-3 h4{
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 2rem;
+    color:#51524c;
+    font-weight: 600px;
+    margin-bottom: 15px;
+    margin-top: 15px; 
+}
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+#contenedor .caja1, .caja2, .caja3, .caja4{
+    width: 600px;
+    height: 150px;
+    color:#333333;
+    font-size: 1.1rem;
+    font-weight: 500px;
+    text-align: center;
+}
+#contenedor h5{
+    color:#333333;
+    font-size: 20px;
+    font-weight: 540;
+    line-height: 1.5;
+}
+#contenedor p{
+    color:#756c6c;
+    font-size: 600;
+    font-weight: 540;
+    line-height: 1.5;
+}
+#datos{
+    background-color: black;
+    width: 100;
+    height: 250px;
+}
+#datos .titulo1{
+    color:#e4d8d8;
+    font-size: 25px;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+#datos p{
+    color:#e4d8d8;
+    font-size: 0,90rem;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+.cop-1{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
